@@ -464,3 +464,27 @@ RuH•BeaT 🫀 is intended for authorized, ethical, and defensive use only.
 ## Status
 
 This repository currently documents the complete RuH•BeaT 🫀 platform concept, including core AI app generation, RuH•BeaT 🫀 Max, SaaS platform architecture, pricing, publishing, security, analytics, and enterprise capabilities.
+
+---
+
+## 19. ElevenLabs Voice Cloning Clarification
+
+ElevenLabs does not currently provide fully live voice cloning that clones a voice continuously while someone is speaking.
+
+### Instant Voice Cloning (IVC)
+
+The closest option is Instant Voice Cloning (IVC). It creates a usable clone almost immediately after a short sample is uploaded.
+
+- Requires about 1–2 minutes of clean voice audio.
+- Clone becomes available right after upload.
+- No dedicated model training wait period.
+
+IVC is still sample-first cloning for text-to-speech, not live real-time cloning from an ongoing microphone stream.
+
+### Practical Fastest Workflow
+
+1. Record 1–2 minutes of clear speech.
+2. Upload the sample in ElevenLabs dashboard or API.
+3. Use the generated voice immediately for text-to-speech.
+
+For higher fidelity, Professional Voice Cloning is available but typically needs more source audio and longer processing time.
